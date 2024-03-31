@@ -31,7 +31,7 @@ pipeline {
                     	// Run a container using the Docker image
                    	bat 'docker run -d --name javacontainer javaapp'
                     	// Fetch the Logs of the java File
-			        bat 'docker logs javacontainer'
+			bat 'docker logs javacontainer'
                 }
             }
         }
